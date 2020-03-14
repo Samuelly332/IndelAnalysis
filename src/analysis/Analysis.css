@@ -1,0 +1,17 @@
+.Analysis {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Overview {
+    text-align: center;
+    width: 1360px;
+}
+
+.singleToAllChart{
+    width: 1360px;
+}
