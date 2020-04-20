@@ -78,7 +78,6 @@ class AllCorrelationsChart extends Component {
                             options={this.state.options}
                             series={this.state.series}
                             type="heatmap"
-                            width= "1360"
                         />
                     </div>
                 </div>

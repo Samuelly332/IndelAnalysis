@@ -1,3 +1,4 @@
+/*noinspection CssInvalidPropertyValue*/
 .Analysis {
     display: flex;
     flex-direction: column;
@@ -5,13 +6,18 @@
     align-items: flex-start;
     text-align: center;
     overflow: hidden;
+    width: -webkit-fill-available;
 }
 
 .Overview {
     text-align: center;
-    width: 1360px;
+    width: 100%;
 }
 
 .singleToAllChart{
-    width: 1360px;
+    width: 100%;
+}
+
+.container {
+    width: -webkit-fill-available;
 }

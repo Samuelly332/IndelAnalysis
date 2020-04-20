@@ -39,7 +39,6 @@ class GapToIndexChart extends Component {
                             options={this.state.options}
                             series={this.state.series}
                             type="line"
-                            width= "1360"
                         />
                     </div>
                 </div>

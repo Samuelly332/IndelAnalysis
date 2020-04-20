@@ -27,7 +27,6 @@ class Analysis extends Component {
                 </div>
                 <GapToIndexChart data={this.props.data}/>
                 <AllCorrelationsChart data={this.props.data}/>
-                <AllCorrelationsChartBaW data={this.props.data}/>
                 <SingleGapToAllCorrelations data={this.props.data}/>
 
             </div>
@@ -137,23 +136,24 @@ class Analysis extends Component {
             indexes[i] = array[i].indexOf('M');
         }
 
-        let mf = 1;
-        let m = 0;
+        let mostFrequent = 1;
+        let counter = 0;
         let item;
 
         for (let i = 0; i < indexes.length; i++) {
             for (let j = i; j < indexes.length; j++) {
-                if (indexes[i] === indexes[j]) m++;
-                if (mf < m) {
-                    mf = m;
+                if (indexes[i] === indexes[j])
+                    counter++;
+                if (mostFrequent < counter) {
+                    mostFrequent = counter;
                     item = indexes[i];
                 }
             }
 
-            m = 0;
+            counter = 0;
         }
 
-        console.log(item + " ( " + mf + " times ) ");
+        console.log(item + " ( " + mostFrequent + " times ) ");
         return item;
     }
 
@@ -206,10 +206,10 @@ class Analysis extends Component {
         for (let i = 0; i < notZeroProbabilitiesRealIndexes.length; i++) {
             for (let j = 0; j < notZeroProbabilitiesRealIndexes.length; j++) {
                 let match = 0;
-                let length = 0;
+                let count = 0;
                 for (let k = 0; k < arr.length; k++) {
                     if (arr[k].charAt(notZeroProbabilitiesRealIndexes[i]) === "-") {
-                        length++;
+                        count++;
                     }
                     if (arr[k].charAt(notZeroProbabilitiesRealIndexes[i]) === "-" && arr[k].charAt(notZeroProbabilitiesRealIndexes[i]) === arr[k].charAt(notZeroProbabilitiesRealIndexes[j])) {
 
@@ -217,7 +217,7 @@ class Analysis extends Component {
                     }
                 }
 
-                correlationProbabilities[i][j] = ((match / length) * 100).toFixed(2);
+                correlationProbabilities[i][j] = ((match / count) * 100).toFixed(2);
             }
         }
         return correlationProbabilities;

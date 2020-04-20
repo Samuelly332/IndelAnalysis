@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="abf78569-74d6-4d76-a109-6bac50e995a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/AllCorrelationsChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/AllCorrelationsChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/Analysis.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/Analysis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/Analysis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/Analysis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/GapToIndexChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/GapToIndexChart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +20,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>xaxis</find>
-      <find>files</find>
-      <find>files&quot;</find>
-      <find>too</find>
-      <find>upload f</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,11 +70,36 @@
       <workItem from="1580379986673" duration="89000" />
       <workItem from="1582376505309" duration="614000" />
       <workItem from="1584646938794" duration="640000" />
+      <workItem from="1584781138303" duration="4139000" />
+      <workItem from="1586595754123" duration="6776000" />
+      <workItem from="1586781022266" duration="4195000" />
     </task>
+    <task id="LOCAL-00001" summary="version deleted, it was just for testing purposes">
+      <created>1584781208727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584781208727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version deleted, it was just for testing purposes" />
+    <option name="LAST_COMMIT_MESSAGE" value="version deleted, it was just for testing purposes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1584781208232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1584781208232" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584781215750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1584781215750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
