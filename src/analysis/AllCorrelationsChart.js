@@ -20,26 +20,44 @@ class AllCorrelationsChart extends Component {
                         colorScale: {
                             ranges: [{
                                 from: 0.00,
-                                to: 25.99,
-                                name: '0 - 25%',
-                                color: '#00A100'
-                            },
-                                {
-                                    from: 26.00,
-                                    to: 50.99,
-                                    name: '26 - 50%',
-                                    color: '#128FD9'
+                                to: 14.99,
+                                name: '0 - 14%',
+                                color: '#9400D3'
                                 },
                                 {
-                                    from: 51.00,
-                                    to: 75.99,
-                                    name: '51 - 75%',
-                                    color: '#FFB200'
+                                    from: 15.00,
+                                    to: 28.99,
+                                    name: '15 - 28%',
+                                    color: '#4B0082'
                                 },
                                 {
-                                    from: 76.00,
+                                    from: 29.00,
+                                    to: 43.99,
+                                    name: '29 - 43%',
+                                    color: '#0000FF'
+                                },
+                                {
+                                    from: 44.00,
+                                    to: 57.99,
+                                    name: '44 - 57%',
+                                    color: '#00FF00'
+                                },
+                                {
+                                    from: 58.00,
+                                    to: 72.99,
+                                    name: '58 - 72%',
+                                    color: '#FFFF00'
+                                },
+                                {
+                                    from: 73.00,
+                                    to: 86.99,
+                                    name: '73 - 86%',
+                                    color: '#FF7F00'
+                                },
+                                {
+                                    from: 87.00,
                                     to: 100.00,
-                                    name: '76 - 100%',
+                                    name: '87 - 100%',
                                     color: '#FF0000'
                                 }
                             ]

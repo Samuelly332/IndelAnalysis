@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="abf78569-74d6-4d76-a109-6bac50e995a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/AllCorrelationsChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/AllCorrelationsChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/Analysis.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/Analysis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/Analysis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/Analysis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/GapToIndexChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/GapToIndexChart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <workItem from="1584646938794" duration="640000" />
       <workItem from="1584781138303" duration="4139000" />
       <workItem from="1586595754123" duration="6776000" />
-      <workItem from="1586781022266" duration="4195000" />
+      <workItem from="1586781022266" duration="5346000" />
     </task>
     <task id="LOCAL-00001" summary="version deleted, it was just for testing purposes">
       <created>1584781208727</created>
