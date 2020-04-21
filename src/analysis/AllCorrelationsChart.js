@@ -11,8 +11,24 @@ class AllCorrelationsChart extends Component {
             options: {
                 chart: {
                     animations: {
-                        enabled: false
+                        enabled: false,
                     },
+                    zoom: {
+                        enabled: true,
+                        type: 'xy',
+                        autoScaleYaxis: false,
+                        zoomedArea: {
+                            fill: {
+                                color: '#90CAF9',
+                                opacity: 0.4
+                            },
+                            stroke: {
+                                color: '#0D47A1',
+                                opacity: 0.4,
+                                width: 1
+                            }
+                        }
+                    }
                 },
                 plotOptions: {
                     heatmap: {
@@ -68,12 +84,14 @@ class AllCorrelationsChart extends Component {
                 xaxis: {
                     labels: {
                         show: false
-                    }
+                    },
+                    tickPlacement: 'on',
                 },
                 yaxis: {
                     labels: {
                         show: false
-                    }
+                    },
+                    tickPlacement: 'on',
                 },
                 dataLabels: {
                     enabled: false
