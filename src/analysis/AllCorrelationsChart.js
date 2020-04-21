@@ -12,7 +12,7 @@ class AllCorrelationsChart extends Component {
                 chart: {
                     animations: {
                         enabled: false
-                    }
+                    },
                 },
                 plotOptions: {
                     heatmap: {

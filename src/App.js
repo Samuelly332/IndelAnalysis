@@ -8,7 +8,7 @@ class App extends Component {
             <div className="App">
                 <div className="Head">
                     <p>
-                        <h1>INDEL ANALYSIS v0.2</h1>
+                        <h1>INDEL ANALYSIS v0.3</h1>
                     </p>
                 </div>
                 <div className="Card">

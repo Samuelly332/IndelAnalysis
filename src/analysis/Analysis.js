@@ -54,6 +54,8 @@ class Analysis extends Component {
     }
 
     static getRealIndexes(gapIndexes, indexOfZero){
+        console.log("gapIndexes "+ gapIndexes);
+        console.log("zero "+ indexOfZero);
         let result = [];
         let index = 0;
 
@@ -68,6 +70,7 @@ class Analysis extends Component {
     }
 
     static getNotZeroProbabilities(probabilities, indexOfZero){
+        console.log("zeeerrooo "+ indexOfZero);
     let zeroIndex = indexOfZero;
     let buffer = [];
     let counter = 0;
@@ -238,7 +241,6 @@ class Analysis extends Component {
         for (let i = 0; i < notZeroProbabilitiesRealIndexes.length; i++) {
             for (let j = 0; j < notZeroProbabilitiesRealIndexes.length; j++) {
                 correlationProbabilities[i][j] = ((probabilities[notZeroProbabilitiesRealIndexes[i]] * probabilities[notZeroProbabilitiesRealIndexes[j]]) / 100).toFixed(2);
-                console.log(probabilities[notZeroProbabilitiesRealIndexes[i]] + "  " + probabilities[notZeroProbabilitiesRealIndexes[j]]);
             }
         }
         return correlationProbabilities;
