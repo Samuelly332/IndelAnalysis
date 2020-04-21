@@ -21,6 +21,7 @@ class Upload extends Component {
     }
 
     onFilesAdded(files) {
+        console.log("File Added");
         this.setState(prevState => ({
             files: prevState.files.concat(files)
         }));

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Dropzone.css";
 
 class Dropzone extends Component {
+
     constructor(props) {
         super(props);
         this.state = { hightlight: false };
@@ -22,6 +23,15 @@ class Dropzone extends Component {
     onFilesAdded(evt) {
         if (this.props.disabled) return;
         const files = evt.target.files;
+        if (!(files[0].name.substr(files[0].name.length - 4, 4) === ".txt")){
+            alert("Wrong file format. Only supported format is \' .txt \'.");
+            return;
+        }
+        if (files[0].size > 1048576){
+            alert("The file is too large. File size limit is 1 MB.");
+            this.setState({ hightlight: false });
+            return;
+        }
         if (this.props.onFilesAdded) {
             const array = this.fileListToArray(files);
             this.props.onFilesAdded(array);
@@ -42,6 +52,16 @@ class Dropzone extends Component {
         event.preventDefault();
         if (this.props.disabed) return;
         const files = event.dataTransfer.files;
+        if (!(files[0].name.substr(files[0].name.length - 4, 4) === ".txt")){
+            alert("Wrong file format. Only supported format is \' .txt \'.");
+            this.setState({ hightlight: false });
+            return;
+        }
+        if (files[0].size > 1048576){
+            alert("The file is too large. File size limit is 1 MB.");
+            this.setState({ hightlight: false });
+            return;
+        }
         if (this.props.onFilesAdded) {
             const array = this.fileListToArray(files);
             this.props.onFilesAdded(array);

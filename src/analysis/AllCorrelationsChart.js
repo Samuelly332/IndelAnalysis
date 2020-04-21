@@ -82,12 +82,14 @@ class AllCorrelationsChart extends Component {
                 },
 
                 xaxis: {
+                    type: 'category',
                     labels: {
                         show: false
                     },
                     tickPlacement: 'on',
                 },
                 yaxis: {
+                    type: 'category',
                     labels: {
                         show: false
                     },
