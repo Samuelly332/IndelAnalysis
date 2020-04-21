@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="abf78569-74d6-4d76-a109-6bac50e995a6" name="Default Changelist" comment="single gap to all fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/AllCorrelationsChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/AllCorrelationsChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/Analysis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/Analysis.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/SingleGapToAllCorrelations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/SingleGapToAllCorrelations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +70,7 @@
       <workItem from="1584646938794" duration="640000" />
       <workItem from="1584781138303" duration="4139000" />
       <workItem from="1586595754123" duration="6776000" />
-      <workItem from="1586781022266" duration="27681000" />
+      <workItem from="1586781022266" duration="30505000" />
     </task>
     <task id="LOCAL-00001" summary="version deleted, it was just for testing purposes">
       <created>1584781208727</created>
@@ -83,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584781208727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="single gap to all fixed">
+      <created>1587464023148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587464023148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,18 +94,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version deleted, it was just for testing purposes" />
-    <option name="LAST_COMMIT_MESSAGE" value="version deleted, it was just for testing purposes" />
+    <MESSAGE value="single gap to all fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="single gap to all fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2195" y="0" key="CommitChangelistDialog2" timestamp="1587463991275">
+    <state x="2195" y="0" key="CommitChangelistDialog2" timestamp="1587466824546">
       <screen x="1920" y="0" width="1024" height="728" />
     </state>
     <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1584781208232" />
-    <state x="2195" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1024.728@1920.0.1024.728" timestamp="1587463991275" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584781215750">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2195" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1024.728@1920.0.1024.728" timestamp="1587466824546" />
+    <state x="2128" y="178" key="Vcs.Push.Dialog.v2" timestamp="1587464027820">
+      <screen x="1920" y="0" width="1024" height="728" />
     </state>
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1584781215750" />
+    <state x="2128" y="178" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.728@1920.0.1024.728" timestamp="1587464027820" />
     <state x="2095" y="49" key="search.everywhere.popup" timestamp="1587387085325">
       <screen x="1920" y="0" width="1024" height="728" />
     </state>

@@ -11,8 +11,6 @@ const createSliderWithTooltip = Slider.createSliderWithTooltip;
 const Range = createSliderWithTooltip(Slider.Range);
 class SingleGapToAllCorrelations extends Component {
 
-
-
     constructor (props) {
         super(props)
         this.state = {
@@ -108,31 +106,19 @@ class SingleGapToAllCorrelations extends Component {
 
         console.log("cat "+ indexes);
         let options = {
-            options: {
-                plotOptions: {
-                    bar: {
-                        horizontal: false,
-                        columnWidth: '55%',
-                        endingShape: 'rounded'
-                    },
-                },
-                dataLabels: {
-                    enabled: false
-                },
-                stroke: {
-                    show: true,
-                    width: 2,
-                    colors: ['transparent']
-                },
-                fill: {
-                    opacity: 1
-                },
-            },
-            xaxis: {
-                categories: indexesFiltered
-            },
 
-        };
+                dataLabels: {
+                    enabled: false,
+                },
+                xaxis: {
+                    type: 'category',
+                    categories: indexesFiltered,
+                    labels: {
+                        show: true,
+                    },
+                    tickPlacement: 'on',
+                },
+            };
         this.resultChart = <div id="chart">
             <ReactApexChart options={options} series={series} type="bar" height="500" />
         </div>;
